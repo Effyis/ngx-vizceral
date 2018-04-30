@@ -65,9 +65,6 @@
     "watch": "^1.0.0",
     "zone.js": "^0.8.0"
   },
-  "publishConfig": {
-    "registry": "http://192.168.97.68:4873"
-  },
   "peerDependencies": {
     "@angular/common": ">=5.0.0",
     "@angular/core": ">=5.0.0"
