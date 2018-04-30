@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Sample Data
+  </h1>
+</div>
+
+<div style="position: absolute; top: 0px;right: 0px; left: 0px">
+  <vizceral [showLabels]="true" [allowDraggingOfNodes]="true" [traffic]="traffic" (viewChanged)="viewChanged()"
+            (viewUpdated)="viewUpdated()" (objectHighlighted)="objectHighlighted($event)"
+            (nodeContextSizeChanged)="nodeContextSizeChanged()" (matchesFound)="matchesFound()" style="width: 100%; height: 500px;    display: flex;"></vizceral>
+</div>
